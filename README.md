@@ -4,7 +4,7 @@ Simple docker image to test uvloop.
 
 **Usage**
 
-uvloop images ca be usefull if you are develop your application with uvloop and you want to test in a clean environment. Start docker container with the following command:
+uvloop images ca be usefull if you are developing your application with uvloop and you want to test in a clean environment. Start docker container with the following command:
 ```
 docker run -d --name uvloop -v your_code_path:docker_path anglnx/uvloop python path_to_your_uvloop_app.py
 ```
