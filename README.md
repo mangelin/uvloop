@@ -1,8 +1,10 @@
-*** Introduction ***
+**Introduction**
+
 Simple docker image to test uvloop.
 
 
-*** Build ***
+**Build**
+
 In order to build your uvloop image:
 ```
 docker build -t imagename .
