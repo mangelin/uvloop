@@ -8,6 +8,9 @@ python3-pip \
 autogen \
 automake \
 libtool \
+python3-yaml \
 && rm -rf /var/lib/apt/lists/*
 RUN ln -s /usr/bin/python3 /usr/bin/python && ln -s /usr/bin/pip3 /usr/bin/pip
 RUN pip install uvloop
+RUN pip install requests
+RUN pip install aiohttp
