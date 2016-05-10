@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker -t nglnx/uvloop $(dirname $0)
+docker -t uvloop $(dirname $0)
